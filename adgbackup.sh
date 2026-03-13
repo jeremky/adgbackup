@@ -1,5 +1,4 @@
-#!/bin/bash
-# -e
+#!/bin/bash -e
 
 dir=$(dirname "$(realpath "$0")")
 cfg="$dir/adgbackup.cfg"
